@@ -1,0 +1,77 @@
+你是一位電商銷售圖策劃及 AI 圖像生成 Prompt 專家。
+請根據以下產品資料，幫我分析產品，並輸出可直接用於生成銷售圖片的內容。
+產品名稱：提提研保濕金箔黑面膜(Plus) 6入
+產品連結：https://www.watsons.com.tw/%E6%8F%90%E6%8F%90%E7%A0%94-%E6%8F%90%E6%8F%90%E7%A0%94%E4%BF%9D%E6%BF%95%E9%87%91%E7%AE%94%E9%BB%91%E9%9D%A2%E8%86%9C-plus-6%E5%85%A5/p/BP_257634
+CTA：立即選購
+任務要求：
+請先爬取 / 分析產品頁內容，整理出此產品最適合用於銷售圖片的 3 個核心優點。
+每個優點都要包含：
+優點標題
+銷售角度
+使用模擬情境
+可直接用於 AI 圖像生成的英文 Prompt
+每個圖片生成 Prompt 必須包含：
+產品名稱
+具體畫面場景
+使用情境
+要突出的產品功能 / 賣點
+Traditional Chinese headline text
+Traditional Chinese subtext
+Traditional Chinese CTA text
+視覺風格指示
+必須加入以下品牌模板要求：
+Must respect and follow the brand's original visual style, layout framework and existing TEMPLATE; keep typography, spacing, logo placement and graphic structure consistent with the original brand template. Do NOT alter, modify, distort, or recreate any product packaging, product name, brand logo, or label. Reproduce all product visuals exactly as provided in the reference images.
+圖像 Prompt 要適合用於生成電商銷售圖，不是單純產品照。
+情境要具體、生活化、容易視覺化，方便逐張生成銷售圖片。
+語氣請用台灣繁體中文。
+如產品頁有明確規格，例如尺寸、容量、重量、支援型號、材質、防水、防震、收納空間等，請盡量放入對應賣點及 subtext。
+不要只列資料，要轉化成「賣點 + 使用場景 + 圖像生成指令」。
+最後請提供建議銷售圖排序，說明哪一張適合作為主 KV，哪一張作功能展示，哪一張作生活情境。
+輸出格式請嚴格跟以下結構：
+
+以下 3 個賣點係根據產品頁整理：
+
+1）優點：{{優點標題}}
+銷售角度： {{用繁體中文說明這個賣點適合打中哪類消費者，以及為什麼有銷售力}}
+使用模擬情境： {{描述一個具體、可視覺化的生活使用畫面}}
+圖片生成 Prompt：
+[Prompt 1 開始] Create a sales image for {{產品名稱}}. Scene: {{具體英文場景描述}}. Emphasize {{要突出的功能 / 優點}}.
+Add headline text in Traditional Chinese: 「{{主標題}}」
+Subtext: 「{{副標題}}」
+CTA: 「{{CTA 文字}}」
+Use {{視覺風格描述}}. Must respect and follow the brand's original visual style, layout framework and existing TEMPLATE; keep typography, spacing, logo placement and graphic structure consistent with the original brand template. Do NOT alter, modify, distort, or recreate any product packaging, product name, brand logo, or label. Reproduce all product visuals exactly as provided in the reference images. [Prompt 1 結束]
+
+2）優點：{{優點標題}}
+銷售角度： {{用繁體中文說明這個賣點適合打中哪類消費者，以及為什麼有銷售力}}
+使用模擬情境： {{描述一個具體、可視覺化的生活使用畫面}}
+圖片生成 Prompt：
+[Prompt 2 開始] Create a sales image for {{產品名稱}}. Scene: {{具體英文場景描述}}. Emphasize {{要突出的功能 / 優點}}.
+Add headline text in Traditional Chinese: 「{{主標題}}」
+Subtext: 「{{副標題}}」
+CTA: 「{{CTA 文字}}」
+Use {{視覺風格描述}}. Must respect and follow the brand's original visual style, layout framework and existing TEMPLATE; keep typography, spacing, logo placement and graphic structure consistent with the original brand template. Do NOT alter, modify, distort, or recreate any product packaging, product name, brand logo, or label. Reproduce all product visuals exactly as provided in the reference images. [Prompt 2 結束]
+
+3）優點：{{優點標題}}
+銷售角度： {{用繁體中文說明這個賣點適合打中哪類消費者，以及為什麼有銷售力}}
+使用模擬情境： {{描述一個具體、可視覺化的生活使用畫面}}
+圖片生成 Prompt：
+[Prompt 3 開始] Create a sales image for {{產品名稱}}. Scene: {{具體英文場景描述}}. Emphasize {{要突出的功能 / 優點}}.
+Add headline text in Traditional Chinese: 「{{主標題}}」
+Subtext: 「{{副標題}}」
+CTA: 「{{CTA 文字}}」
+Use {{視覺風格描述}}. Must respect and follow the brand's original visual style, layout framework and existing TEMPLATE; keep typography, spacing, logo placement and graphic structure consistent with the original brand template. Do NOT alter, modify, distort, or recreate any product packaging, product name, brand logo, or label. Reproduce all product visuals exactly as provided in the reference images. [Prompt 3 結束]
+
+建議銷售圖排序
+第一張：{{說明為何適合作主 KV}}
+第二張：{{說明為何適合作功能展示}}
+第三張：{{說明為何適合作生活情境}}
+
+參考文件說明：
+請參考以下附件進行設計：
+廣告參考模板（版面風格、構圖比例請對齊此模板）
+品牌 Logo（請原樣套入，不得變形或修改）
+產品圖片（請原樣使用，不得更改包裝、名稱或任何視覺元素）
+
+
+
+
